@@ -1,27 +1,25 @@
 {
-    "name": "ekko",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-      "dev": "next dev",
-      "build": "next build",
-      "start": "next start",
-      "lint": "next lint"
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "preserve",
+      "baseUrl": ".",
+      "paths": {
+        "@components/*": ["src/components/*"],
+        "@services/*": ["src/services/*"],
+        "@styles/*": ["styles/*"],
+        "@public/*": ["public/*"]
+      }
     },
-    "dependencies": {
-      "next": "latest",
-      "react": "latest",
-      "react-dom": "latest",
-      "tailwindcss": "^3.0.0"
-    },
-    "devDependencies": {
-      "eslint": "^8.0.0",
-      "eslint-config-next": "latest",
-      "typescript": "latest",
-      "@types/react": "latest",
-      "@types/node": "latest",
-      "postcss": "latest",
-      "autoprefixer": "latest"
-    }
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"]
   }
-  
