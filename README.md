@@ -1,50 +1,36 @@
-# Echo: Amplify Your Creativity
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Overview
-Echo is a next-generation decentralized video-sharing platform that empowers creators and prioritizes user privacy. By leveraging the AT protocol, Echo ensures content ownership, freedom of expression, and enhanced security for all users.
+## Getting Started
 
-## Why Echo?
-- **Privacy-First**: Built on the AT protocol, Echo gives users complete control over their data.
-- **Decentralized Network**: Content is distributed and censorship-resistant.
-- **Creator Empowerment**: A platform designed to amplify your voice without interference.
+First, run the development server:
 
-## Key Features
-1. **Video Sharing**: Seamless uploads and sharing of short-form videos.
-2. **DID Authentication**: Secure and decentralized user identity.
-3. **Cross-Platform Access**: Download the app directly from our website for Android and iOS.
-4. **Decentralized Network Integration**: Built on the AT protocol for transparency and openness.
-5. **Future Monetization**: Planned tools for creators to earn directly from their content.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## How Echo Works
-- **AT Protocol Integration**: Echo uses the AT protocol to decentralize identity and content storage.
-- **Bluesky Compatibility**: Echo aligns with the Bluesky ecosystem for seamless interoperability.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Download the App
-Ready to explore Echo? Download the app today:
-- **Android**: [Download APK](https://yourwebsite.com/downloads/echo-app.apk)
-- **iOS**: Join via [TestFlight](https://testflight.apple.com).
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
-Dive deeper into the technology behind Echo and the AT protocol:
-- [AT Protocol Documentation](https://docs.bsky.app/docs/advanced-guides/atproto)
 
-## Vision
-Echo aims to redefine social media by creating a space where:
-- Users own their content.
-- Creativity thrives without boundaries.
-- Privacy and security are non-negotiable.
+To learn more about Next.js, take a look at the following resources:
 
-## Support Echo
-We are seeking investors to help:
-1. Expand our development team.
-2. Build scalable server infrastructure.
-3. Accelerate feature development and user acquisition.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Contact Us
-Have questions or want to invest? Reach out to us at:
-- Email: [contact@echoapp.com](mailto:joshb.echo@gmail.com)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- Website: [www.echoapp.com](https://www.echoapp.com)
+## Deploy on Vercel
 
-Join Echo and help amplify the voices of creators worldwide!
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
